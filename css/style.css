@@ -24,6 +24,8 @@ body{
 
 .logo{
     width: 200px;
+    opacity: 70%;
+    z-index: 1;
     display: grid;
     grid-column: 5/9;
     grid-row: 1/3;
@@ -37,6 +39,7 @@ body{
     color: black;
     text-align: center;
     background-color: transparent;
+    z-index: 2;
     display: grid;
     grid-column: 2/10;
     grid-row: 3/5;
@@ -304,6 +307,8 @@ body{
 
 .logo{
     width: 150px;
+    opacity: 70%;
+    z-index: 1;
     display: grid;
     grid-column: 5/9;
     grid-row: 1/3;
@@ -317,6 +322,7 @@ body{
     color: black;
     text-align: center;
     background-color: transparent;
+    z-index: 2;
     display: grid;
     grid-column: 1/10;
     grid-row: 3/8;
@@ -465,7 +471,23 @@ p {
     width: 1781px;
 }
 
-.div-dentro-del-footer{
+.container2{
+    display: flex;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
     font-family: "Ramaja", serif;
     font-size: 20px;
     color: #784A41;
@@ -476,15 +498,80 @@ p {
     margin-top: auto;
 }
 
-.Redes-Sociales-del-footer {
-    background-color: rgba( 225, 220, 208, 0.3);
-    list-style: none;
+.nuevo-footer{
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 270px;
+    margin-right: 270px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 1296px;
+    height: 62px; 
 }
 
-.opacidad-de-letra-del-footer{
-    font-family: "Ramaja", serif;
-    font-size: 15px;
-    color: #784A41;
+.div-nuevo-footer{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.class-dentro-de-div-footer-div{
+    --bs-text-opacity: 1px;
+    color: #6c757d;
+    text-decoration: none;
+    line-height: 1px;
+    margin-bottom: 0px;
+    margin-right: 0.5rem;
+    text-decoration: underline;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: underline;
+    width: 30px;
+    height: 25px;
+}
+
+.ul-nuevo-footer, .ms-3{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+    list-style: none;
+    box-sizing: border-box;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    justify-content: end;
+    width: 472px;
+    height: 29px;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px
+}
+
+.ms-3{
+    width: 24px;
+    height: 28px;
+    padding-left: 0px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
     
 .espaciados{
@@ -531,6 +618,8 @@ body{
 
 .logo{
     width: 60px;
+    opacity: 70%;
+    z-index: 1;
     display: grid;
     grid-column: 5/9;
     grid-row: 1/3;
@@ -544,6 +633,7 @@ body{
     color: black;
     text-align: center;
     background-color: transparent;
+    z-index: 2;
     display: grid;
     grid-column: 1/10;
     grid-row: 2/4;
@@ -686,9 +776,25 @@ p {
     text-align: center;
 }
 
-.div-dentro-del-footer{
+.container2{
+    display: flex;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
     font-family: "Ramaja", serif;
-    font-size: 10px;
+    font-size: 20px;
     color: #784A41;
     opacity: 90%;
     background-color: #E1DCD0; 
@@ -697,15 +803,80 @@ p {
     margin-top: auto;
 }
 
-.Redes-Sociales-del-footer {
-    background-color: rgba( 225, 220, 208, 0.3);
-    list-style: none;
+.nuevo-footer{
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 270px;
+    margin-right: 270px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 1296px;
+    height: 62px; 
 }
 
-.opacidad-de-letra-del-footer{
-    font-family: "Ramaja", serif;
-    font-size: 10px;
-    color: #784A41;
+.div-nuevo-footer{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.class-dentro-de-div-footer-div{
+    --bs-text-opacity: 1px;
+    color: #6c757d;
+    text-decoration: none;
+    line-height: 1px;
+    margin-bottom: 0px;
+    margin-right: 0.5rem;
+    text-decoration: underline;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: underline;
+    width: 30px;
+    height: 25px;
+}
+
+.ul-nuevo-footer, .ms-3{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+    list-style: none;
+    box-sizing: border-box;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    justify-content: end;
+    width: 472px;
+    height: 29px;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px
+}
+
+.ms-3{
+    width: 24px;
+    height: 28px;
+    padding-left: 0px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 }
