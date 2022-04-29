@@ -1,119 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ramaraja&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <script src="./app.js"></script>
+        <link href="./bootstrap/css/bootstrap.css">
         <title>Gourmet Americano</title>
     </head>
-    
-
-    <body>   
-
-        <div class="contenedor img-de-fondo-marmol">
 
 
-                <div class="banner">
-                    <img class="img-banner img-fluid" src="./img/img-css/banner.png" alt="banner">
-                    <img class="logo img-fluid" src="./img/logo.jpg" alt="logo de servicio gastronomico">
-                    <img class="banner-mobile img-fluid" src="./img/img-css/banner-mobile.png" alt="banner mobile">
+    <body>
+        <div class="wrapper">
+            <header class="header">
 
-                    <div class="titulos-principales">    
-                        <h1 class="title">Gourmet Americano</h1>
-                        <h2 class="subtitle">Servicios Gastronomicos</h2>
-                    </div>
-
+                <div class="Imagen-de-Fondo">
+                    <img class="logo" src="./img/logo.jpg" alt="logo de servicio gastronomico gourmet americano">
+                    <h1 class="title">Gourmet Americano</h1>
+                    <h2 class="subtitle">Servicios Gastronomicos</h2>
                 </div>
 
-                <div class="contenedor-menu">
-                    <nav class="menu navbar-expand-lg">
-                        <div class="titulos-principales">    
-                            <h2 class="h1-mobile">Gourmet Americano</h1>
-                            <h2 class="h2-mobile">Servicios Gastronomicos</h2>
-                        </div>
+                <nav class="countainer navbar navbar-light" style="background-color: #cd8a7c86;">
+                    <!-- Navbar content -->
+                    <ul class="barra-de-botones">
+                        <li class="li-nav"><a href="index.html">Home</a></li>
+                        <li class="li-nav"><a href="nuestros-menu.html">Nuestro Menu</a></li>
+                        <li class="li-nav"><a href="servicios-especiales.html">Servicios Especiales</a></li>
+                        <li class="li-nav"><a href="galeria.html">Galeria</a></li>
+                        <li class="li-nav"><a href="opiniones.html">Opiniones</a></li>
+                        <li class="li-nav"><a href="contactanos.html">Contactanos</a></li>
+                        <li class="li-nav"><a href="registrate.html">Registrate</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-                        <ul id="mostrar_menu" class="menu_items">
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="./nuestro-menu.html">Nuestros Menu</Menu></a></li>
-                            <li><a href="./servicios-especiales.html">Servicios Especiales</a></li>
-                            <li><a href="./galeria.html">Galeria</a></li>
-                            <li><a href="./opiniones.html">Opiniones</a></li>
-                            <li><a href="./contactanos.html">Contactanos</a></li>
-                            <li><a href="./registrate.html">Registrate</a></li>   
-                        </ul>
-                        <span class="bottom_menu" onclick="showmenu();">
-                            <img src="./img/icons/icon-menu.png" alt="icono de menu desplegable lateral">
-                        </span>
-                    </nav>
+            <main class="main">
+                <div>
+                    <h2 class="primer-h2"> Quienes Somos? </h2>
+
+                    <p>A lo largo de los años, desde que fundamos Gourmet Americano, hemos acumulado una gran experiencia que nos ha convertido en sinónimo de excelencia en la actualidad.
+                    <br> Caracterizados por un trato serio y personalizado, continuamos iniciando cada evento con una entrevista personal, donde ofrecemos consejos sobre las mejores alternativas para su evento, con el objetivo de superar las expectativas de todos los que se acercan a nosotros. </p>
+                    <hr class="espaciados">
+
+                    <h2 class="h2"> Nuestros Valores </h2>
+                    <p> Somos una empresa familiar donde abunda el trabajo duro, la experiencia y la confianza, por lo que estamos bien posicionados en el mercado. Los lazos familiares pasan entre los que trabajamos en Guillén Catering y cada uno de nuestros clientes.
+                    <br> Consideramos que cenar es un momento especial. Una combinación de cocina de primer nivel y un ambiente cálido, donde el amor y la devocion son los componentes principales. </p>
+                    <hr class="espaciados">
+
+                    <h2 class="h2"> Experiencia </h2>
+                    <p> Contamos con amplio desempeño en casamientos, mesas para navidad, servicios empresariales, fiestas de XV, baby showers, comuniones, cumpleaños, aniversarios y eventos sociales diversos.
+                    <br> Ofrecemos una amplia gama de eventos corporativos, congresos, seminarios, lanzamientos de productos, desfiles de moda, cócteles, almuerzos, comidas y cenas formales, jornadas de trabajo, descansos, desayunos de empresa, etc. Valoramos la importancia de estos encuentros para desarrollar proyectos, construir relaciones y fortalecer equipos. </p>
+                    <hr class="espaciado">
+
+                    
+                    <p class="ultimo-p">¡Todas las deliciosas comidas de Gourmet Americano también están disponibles para comidas rápidas!
+                    <br> Te damos diferentes recomendaciones para que cada uno de nuestros productos cumpla con tus requerimientos.
                 </div>
-
-
-                <div class="contenedor-main">
-                    <main class="main">
-                        
-                            <h2 class="primer-h2"> Quienes Somos? </h2>
-        
-                            <p data-aos="fade-up"
-                            data-aos-anchor-placement="top-center">A lo largo de los años, desde que fundamos Gourmet Americano, hemos acumulado una gran experiencia que nos ha convertido en sinónimo de excelencia en la actualidad.
-                            <br> Caracterizados por un trato serio y personalizado, continuamos iniciando cada evento con una entrevista personal, donde ofrecemos consejos sobre las mejores alternativas para su evento, con el objetivo de superar las expectativas de todos los que se acercan a nosotros. </p>
-                            <hr class="espaciados">
-        
-                            <h2 class="h2"> Nuestros Valores </h2>
-                            <p data-aos="fade-up"
-                            data-aos-anchor-placement="top-center"> Somos una empresa familiar donde abunda el trabajo duro, la experiencia y la confianza, por lo que estamos bien posicionados en el mercado. Los lazos familiares pasan entre los que trabajamos en Guillén Catering y cada uno de nuestros clientes.
-                            <br> Consideramos que cenar es un momento especial. Una combinación de cocina de primer nivel y un ambiente cálido, donde el amor y la devocion son los componentes principales. </p>
-                            <hr class="espaciados">
-        
-                            <h2 class="h2"> Experiencia </h2>
-                            <p data-aos="fade-up"
-                            data-aos-anchor-placement="top-center"> Contamos con amplio desempeño en casamientos, mesas para navidad, servicios empresariales, fiestas de XV, baby showers, comuniones, cumpleaños, aniversarios y eventos sociales diversos.
-                            <br> Ofrecemos una amplia gama de eventos corporativos, congresos, seminarios, lanzamientos de productos, desfiles de moda, cócteles, almuerzos, comidas y cenas formales, jornadas de trabajo, descansos, desayunos de empresa, etc. Valoramos la importancia de estos encuentros para desarrollar proyectos, construir relaciones y fortalecer equipos. </p>
-                            <hr class="espaciado">
-        
-                            
-                            <p data-aos="fade-up"
-                            data-aos-anchor-placement="top-center" class="ultimo-p">¡Todas las deliciosas comidas de Gourmet Americano también están disponibles para comidas rápidas!
-                            <br> Te damos diferentes recomendaciones para que cada uno de nuestros productos cumpla con tus requerimientos.
-                    
-                    </main>
-                </div>
-
-
-
-                    <div class="contenedor-footer">
-                    
-                        <footer class="footer">   
-                            <div class="div-footer">
-                            <a href="/" class="a-div-footer">
-                            <svg width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-                            </a>
-                            <span style="width: 472px; height: 24px;">© 2022 Gourmet Americano, Inc</span>
-                            </div>
-                    
-                            
-                            <ul class="ul-footer">
-                                <li class="ms-3"> <img src="img/icons/twitter-icon.png"> <svg style= "width: 24px; height: 24px;" ><use xlink:href="#twitter"></use></svg></a></li>
-                                <li class="ms-3"> <img src="img/icons/instagram-icon.png"> <svg width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-                                <li class="ms-3"> <img src="img/icons/facebook-icon.png"> <svg width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-                                <li class="ms-3"> <img src="img/icons/pinterest-icon.png"> <svg width="24" height="24"><use xlink:href="#pinterest"></use></svg></a></li>
-                                <li class="ms-3"> <img src="img/icons/whatsapp-icon.png"> <svg width="24" height="24"><use xlink:href="#whatsapp"></use></svg></a></li>
-                            </ul>
-                        </footer>
-                    </div>
-            
+            </main>
 
         </div>
 
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color: #cd8a7c86;">
+              <div class="col-md-4 d-flex align-items-center" style="padding-left:50px;">
+                <span class="text-muted">&copy; 2021 Company, Inc </span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><img src="./img/icons/whatsapp-icon.png" alt="whatsapp"><svg class="bi" width="50" height="50"><use xlink:href="#whatsapp"/></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><img src="./img/icons/instagram-icon.png" alt="instagram"><svg class="bi" width="50" height="50"><use xlink:href="#instagram"/></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><img src="./img/icons/pinterest-icon.png" alt="pinterest"><svg class="bi" width="50" height="50"><use xlink:href="#pinterest"/></svg></a></li>
+              </ul>
+            </footer>
+        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <script 
+        src="./bootstrap/js/bootstrap.js">
+        </script>
     </body>
 
-
 </html>
+
+
