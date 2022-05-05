@@ -1,0 +1,13 @@
+@mixin galeria ($width, $margin-top, $margin-bottom, $margin-right, $margin-left) {
+    width: $width;
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+    margin-right: $margin-right;
+    margin-left: $margin-left;
+}
+
+@mixin divisiones-galeria ($display, $grid-t-c, $grid-t-r) {
+    display: $display;
+    grid-template-columns: $grid-t-c;
+    grid-template-rows: $grid-t-r;
+}
