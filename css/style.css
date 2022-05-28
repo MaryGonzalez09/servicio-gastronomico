@@ -4,617 +4,445 @@
   box-sizing: border-box; }
 
 @font-face {
-  font-family: "Astania Script", sans-serif, black;
-  src: url("../Fonts/Astania Script.otf") format("opentype"); }
+  font-family: "Dancing Script, cursive";
+  src: url("../fonts/DancingScript-VariableFont_wght.ttf"); }
+
+/*GENERAL*/
+body {
+  background-image: url("../img/img-css/fondo-marmol2.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  opacity: 70%;
+  background-color: white; }
+
+body .primer-div .banner {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  background-image: url("../img/img-css/img-fondo-titulo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 20px; }
+
+body nav .navbar .navbar-expand-lg .navbar-light .bg-light .rounded div .container-fluid .navbar-toggler div .collapse .navbar-collapse .justify-content-md-center ul .navbar-nav {
+  display: flex; }
+
+body main .texto-main .primer-h2 {
+  font-family: "Dancing Script, cursive";
+  font-size: 100px;
+  padding-top: 100px;
+  padding-bottom: 30px; }
+
+body main .texto-main .h2 {
+  font-family: "Dancing Script, cursive";
+  font-size: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+body main .texto-main .espaciados {
+  width: 50%;
+  background-color: black;
+  border: 0;
+  height: 2px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.parrafo {
+  padding-top: 10px;
+  margin: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 22px; }
+
+.ultimo-parrafo {
+  padding-top: 10px;
+  font-size: 22px; }
+
+.divisiones {
+  margin-top: 10px;
+  margin-bottom: 30px; }
+
+/*NUESTRO MENU*/
+.main-nuestro-menu {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.main-nuestro-menu .primer-h2 {
+  font-family: "Dancing Script, cursive";
+  font-size: 100px;
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
+.main-nuestro-menu .titulo-h3-nuestro-menu {
+  font-family: "Dancing Script, cursive";
+  font-size: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.main-nuestro-menu .titulo-h4 {
+  font-family: "Dancing Script, cursive";
+  font-size: 50px;
+  margin-top: 50px;
+  opacity: 80%; }
+
+/*SERVICIOS ESPECIALES */
+.main-servicios-especiales {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.main-servicios-especiales .primer-h2 {
+  font-family: "Dancing Script, cursive";
+  font-size: 100px; }
+
+.main-servicios-especiales .titulo-h3-nuestro-menu {
+  font-family: "Dancing Script, cursive";
+  font-size: 70px; }
+
+.servicios-especiales {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 70px; }
+
+/*GALERIA*/
+.main-galeria .primer-h2 {
+  font-family: "Dancing Script, cursive";
+  font-size: 100px; }
+
+.divisiones-galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, auto); }
+
+/*OPINIONES*/
+.main-opiniones .primer-h2 {
+  font-family: "Dancing Script, cursive";
+  font-size: 100px; }
+
+.barra {
+  width: 500px; }
+
+/*REGISTRATE*/
+.main-registrate .primer-h2 {
+  font-family: "Dancing Script, cursive";
+  font-size: 100px; }
+
+/*CONTACTANOS*/
+.main-contactanos .primer-h2 {
+  font-family: "Dancing Script, cursive";
+  font-size: 100px; }
+
+.main-contactanos .div-contactanos .primer-h3-contactanos {
+  font-family: "Dancing Script, cursive";
+  font-size: 50px; }
+
+.formulario .formulario-de-contacto .primer-h3-contactanos {
+  font-family: "Dancing Script, cursive";
+  font-size: 50px; }
+
+.mapa {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px; }
+
+.formulario {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr; }
+
+.formulario-de-contacto {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 1; }
+
+@media screen and (min-width: 1401px) {
+  body main .texto-main .primer-h2 {
+    font-size: 100px;
+    padding-top: 100px;
+    padding-bottom: 30px; }
+  body main .texto-main .h2 {
+    font-size: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .parrafo {
+    padding-top: 10px;
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 22px; }
+  .ultimo-parrafo {
+    padding-top: 10px;
+    font-size: 22px; }
+  .main .primer-h2 {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .main .titulo-h3-nuestro-menu {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .main .titulo-h4 {
+    margin-top: 50px;
+    font-size: 30px; }
+  .primer-h2 {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .primer-h3-contactanos {
+    font-size: 40px; } }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
-  body {
-    background-image: url("../img/img-css/fondo-marmol2.jpg");
-    background-size: cover;
-    background-repeat: repeat-y;
-    opacity: 70%;
-    background-color: white;
-    /*FOOTER*/ }
-    body .wrapper header {
-      /*BANNER*/
-      /*NAVBAR*/ }
-      body .wrapper header .Imagen-de-Fondo {
-        display: grid;
-        grid-template-columns: repeat(9, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        background-image: url("../img/img-css/imagen-fondo-titulo.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        text-align: center;
-        height: 600px;
-        margin-bottom: 10px; }
-        body .wrapper header .Imagen-de-Fondo .logo {
-          width: 100px;
-          opacity: 70%;
-          z-index: 1;
-          display: grid;
-          grid-column: 5/9;
-          grid-row: 1/3;
-          justify-content: center; }
-        body .wrapper header .Imagen-de-Fondo .title {
-          font-family: "Astania Script", sans-serif, black;
-          font-size: 60px;
-          font-weight: 100;
-          text-align: center;
-          background-color: transparent;
-          z-index: 2;
-          display: grid;
-          grid-column: 1/10;
-          grid-row: 2/7;
-          height: 0; }
-        body .wrapper header .Imagen-de-Fondo .subtitle {
-          font-family: "Astania Script", sans-serif, black;
-          font-size: 30px;
-          font-weight: 100;
-          text-align: center;
-          background-color: transparent;
-          display: grid;
-          grid-column: 2/9;
-          grid-row: 3/7;
-          height: 0; }
-      body .wrapper header .countainer-nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        overflow: scroll;
-        transition: all .4s;
-        height: calc(100% -65px); }
-        body .wrapper header .countainer-nav .barra-de-botones {
-          display: inline;
-          text-align: center;
-          list-style: none;
-          font-family: "Ramaraja", serif, black;
-          text-decoration: none;
-          font-size: 30px;
-          border-radius: 5px;
-          margin-top: 30px;
-          margin-right: auto;
-          margin-left: auto;
-          padding: 0; }
-          body .wrapper header .countainer-nav .barra-de-botones .li-nav {
-            display: inline;
-            opacity: 75%;
-            font-family: "Ramaraja", serif, black;
-            text-decoration: none;
-            margin-top: 30px;
-            margin-right: auto;
-            margin-left: auto;
-            padding-left: 65px;
-            padding-right: 65px;
-            border: white;
-            border-width: 5px;
-            opacity: 80%; }
-            body .wrapper header .countainer-nav .barra-de-botones .li-nav a:link, body .wrapper header .countainer-nav .barra-de-botones .li-nav a:visited, body .wrapper header .countainer-nav .barra-de-botones .li-nav a:hover {
-              color: black;
-              text-decoration: none; }
-    body .wrapper main {
-      /*TEXTO*/ }
-      body .wrapper main .texto-main .primer-h2, body .wrapper main .texto-main .h2 {
-        font-family: "Astania Script", sans-serif;
-        color: black;
-        opacity: 80%;
-        text-align: center;
-        font-size: 40px;
-        padding-top: 100px; }
-      body .wrapper main .texto-main .h2 {
-        font-size: 40px;
-        opacity: 80%;
-        padding-top: 50px;
-        padding-bottom: 0px; }
-      body .wrapper main .texto-main .espaciados {
-        width: 50%;
-        background-color: black;
-        border: 0;
-        height: 1px;
-        margin-left: auto;
-        margin-right: auto; }
-      body .wrapper main .texto-main p {
-        padding-top: 10px;
-        padding-bottom: 50px;
-        padding-left: 400px;
-        padding-right: 400px;
-        margin: 10px;
-        font-family: "Ramaraja", serif, black;
-        font-size: 22px;
-        text-align: center; }
-      body .wrapper main .texto-main .ultimo-p {
-        padding: 10px;
-        padding-top: 100px;
-        padding-bottom: 250px;
-        padding-left: 400px;
-        padding-right: 400px;
-        margin: 10px;
-        font-family: "Ramaraja", serif, black;
-        font-size: 25px;
-        text-align: center; }
-    body .countainer-footer .countainer-footer li:hover {
-      background: none; }
-    body .countainer-footer .countainer-footer li a {
-      color: #784A41; }
-    body .countainer-footer .countainer-footer li a:hover {
-      color: #cd8a7c86; }
-  /*FOTOS Y DIVISIONES-GALERIA*/
-  .galeria {
-    width: 300px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 50px;
-    margin-left: 50px; }
-  .divisiones-galeria {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(9, 1fr); }
-  /*MAIN-CONTACTANOS*/
-  .mapa {
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px; }
-  .titulos-en-main-mapa {
-    display: grid;
-    grid-column: 1/9;
-    grid-row: 1; }
-  .formulario {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr; }
-  .formulario-de-contacto {
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 1; }
-  /*TITULOS-SERVICIOS ESPECIALES */
-  .servicios-especiales {
-    width: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 70px; }
-  .titulo-h3-servicios-especiales,
-  .primer-h3-contactanos,
-  .titulo-h3-nuestro-menu {
-    font-family: "Astania Script", sans-serif;
-    color: black;
-    opacity: 80%;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: underline black;
+  body main .texto-main .primer-h2 {
+    font-size: 70px;
+    padding-top: 100px;
+    padding-bottom: 30px; }
+  body main .texto-main .h2 {
+    font-size: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .parrafo {
+    padding-top: 10px;
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px; }
+  .ultimo-parrafo {
+    padding-top: 10px;
+    font-size: 18px; }
+  .main .primer-h2 {
+    font-size: 40px;
     padding-top: 50px;
-    padding-bottom: 0px; }
-  /*FUENTES Y DIVISIONES-NUESTRO MENU */
-  .titulo-h4 {
-    font-family: "Astania Script", sans-serif;
-    color: black;
-    opacity: 80%;
-    text-align: center;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 0px; }
-  .divisiones {
-    width: 80%;
-    background-color: black;
-    border: 0;
-    height: 3px;
-    margin-left: auto;
-    margin-right: auto; } }
+    padding-bottom: 30px; }
+  .main .titulo-h3-nuestro-menu {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .main .titulo-h4 {
+    margin-top: 40px;
+    font-size: 30px; }
+  .primer-h2 {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .primer-h3-contactanos {
+    font-size: 30px; } }
 
 @media screen and (min-width: 993px) and (max-width: 1199px) {
-  body {
-    background-image: url("../img/img-css/fondo-marmol2.jpg");
-    background-size: auto;
-    background-repeat: repeat-y;
-    opacity: 70%;
-    background-color: white;
-    /*ORDEN-GRID*/
-    /*FOOTER*/ }
-    body .wrapper {
-      grid-template-columns: 4fr;
-      grid-template-areas: "header" "titulos" "main" "footer";
-      /*BANNER*/ }
-      body .wrapper header {
-        /*NAVBAR*/ }
-        body .wrapper header .Imagen-de-Fondo {
-          display: grid;
-          grid-template-columns: repeat(9, 1fr);
-          grid-template-rows: repeat(7, 1fr);
-          background-image: url("../img/img-css/imagen-fondo-titulo.png");
-          background-size: contain;
-          background-repeat: no-repeat;
-          text-align: center;
-          height: 400px;
-          width: auto; }
-          body .wrapper header .Imagen-de-Fondo .logo {
-            width: 100px;
-            opacity: 70%;
-            z-index: 1;
-            display: grid;
-            grid-column: 5/9;
-            grid-row: 1/3;
-            justify-content: center; }
-          body .wrapper header .Imagen-de-Fondo .title {
-            font-family: "Astania Script", sans-serif, black;
-            font-size: 60px;
-            font-weight: 100;
-            text-align: center;
-            background-color: transparent;
-            z-index: 2;
-            display: grid;
-            grid-column: 1/10;
-            grid-row: 2/8;
-            height: 0px;
-            width: auto; }
-          body .wrapper header .Imagen-de-Fondo .subtitle {
-            font-family: "Astania Script", sans-serif, black;
-            font-size: 30px;
-            font-weight: 100;
-            text-align: center;
-            background-color: transparent;
-            display: grid;
-            grid-column: 1/10;
-            grid-row: 4/8;
-            height: 0px;
-            width: auto; }
-        body .wrapper header .countainer-nav {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around; }
-          body .wrapper header .countainer-nav .barra-de-botones {
-            display: inline;
-            text-align: center;
-            list-style: none;
-            font-family: "Ramaraja", serif, black;
-            text-decoration: none;
-            font-size: 15px;
-            border-radius: 5px;
-            margin-top: 30px;
-            margin-right: 14px;
-            margin-left: 14px;
-            padding: 0; }
-          body .wrapper header .countainer-nav .li-nav {
-            display: inline;
-            opacity: 75%;
-            font-family: "Ramaraja", serif, black;
-            text-decoration: none;
-            margin-top: 30px;
-            padding-left: 40px;
-            padding-right: 40px;
-            border: white;
-            border-width: 5px;
-            opacity: 80%; }
-          body .wrapper header .countainer-nav a:link, body .wrapper header .countainer-nav a:visited, body .wrapper header .countainer-nav a:hover {
-            color: black;
-            text-decoration: none; }
-      body .wrapper main {
-        /*TEXTO*/ }
-        body .wrapper main .texto-main .primer-h2, body .wrapper main .texto-main .h2 {
-          font-family: "Astania Script", sans-serif;
-          color: black;
-          opacity: 80%;
-          text-align: center;
-          font-size: 30px;
-          padding-top: 100px;
-          width: auto; }
-        body .wrapper main .texto-main .h2 {
-          font-family: "Astania Script", sans-serif;
-          color: black;
-          opacity: 80%;
-          text-align: center;
-          font-size: 30px;
-          padding-top: 50px;
-          padding-bottom: 0px;
-          width: auto; }
-        body .wrapper main .texto-main .espaciados {
-          width: 50%;
-          background-color: black;
-          border: 0;
-          height: 1px;
-          margin-left: auto;
-          margin-right: auto; }
-        body .wrapper main .texto-main p {
-          padding-top: 10px;
-          padding-left: auto;
-          padding-right: auto;
-          padding-bottom: 10px;
-          margin: 10px;
-          font-family: "Ramaraja", serif, black;
-          font-size: 20px;
-          text-align: center;
-          width: auto; }
-        body .wrapper main .texto-main .ultimo-p {
-          padding: 10px;
-          padding-left: auto;
-          padding-right: auto;
-          padding-bottom: 100px;
-          margin: 10px;
-          font-family: "Ramaraja", serif, black;
-          font-size: 20px;
-          text-align: center;
-          width: auto; }
-    body .countainer-footer {
-      overflow: scroll;
-      transition: all .4s;
-      height: calc(100% -65px); }
-      body .countainer-footer .countainer-footer li:hover {
-        background: none; }
-      body .countainer-footer .countainer-footer li a {
-        color: #784A41; }
-      body .countainer-footer .countainer-footer li a:hover {
-        color: #cd8a7c86; }
-  /* FOTOS Y DIVISIONES-GALERIA */
-  .galeria {
-    width: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 50px;
-    margin-left: 50px; }
+  body main .texto-main .primer-h2 {
+    font-size: 70px;
+    padding-top: 100px;
+    padding-bottom: 30px; }
+  body main .texto-main .h2 {
+    font-size: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .parrafo {
+    padding-top: 10px;
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px; }
+  .ultimo-parrafo {
+    padding-top: 10px;
+    font-size: 18px; }
+  .main .primer-h2 {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .main .titulo-h3-nuestro-menu {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .main .titulo-h4 {
+    margin-top: 40px;
+    font-size: 25px; }
+  .primer-h2 {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .primer-h3-contactanos {
+    font-size: 30px; }
+  /*GALERIA*/
   .divisiones-galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(9, 1fr); }
-  /* MAIN-CONTACTANOS */
-  .mapa {
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px; }
-  .titulos-en-main-mapa {
-    display: grid;
-    grid-column: 1/9;
-    grid-row: 1; }
-  .formulario {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr; }
-  .formulario-de-contacto {
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 1; }
-  /* TITULOS-SERVICIOS ESPECIALES */
-  .servicios-especiales {
-    width: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 70px; }
-  .titulo-h3-servicios-especiales,
-  .primer-h3-contactanos,
-  .titulo-h3-nuestro-menu {
-    font-family: "Astania Script", sans-serif;
-    color: black;
-    opacity: 80%;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: underline black;
-    padding-top: 50px;
-    padding-bottom: 0px; }
-  .divisiones {
-    width: 80%;
-    background-color: black;
-    border: 0;
-    height: 3px;
-    margin-left: auto;
-    margin-right: auto; }
-  /* FUENTES Y DIVISIONES-NUESTRO MENU */
-  .titulo-h4 {
-    font-family: "Astania Script", sans-serif;
-    color: black;
-    opacity: 80%;
-    text-align: center;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 0px; } }
+    grid-template-rows: repeat(8, auto); }
+  /*OPINIONES*/
+  .barra {
+    width: 400px; } }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  body {
-    background-image: url("../img/img-css/fondo-marmol2.jpg");
-    background-size: cover;
-    background-repeat: repeat-y;
-    opacity: 70%;
-    background-color: white;
-    /*ORDEN-GRID*/
-    /*FOOTER*/ }
-    body .wrapper {
-      grid-template-columns: 4fr;
-      grid-template-areas: "header" "titulos" "main" "footer";
-      /*BANNER*/ }
-      body .wrapper header {
-        /*NAVBAR*/ }
-        body .wrapper header .Imagen-de-Fondo {
-          display: grid;
-          grid-template-columns: repeat(9, 1fr);
-          grid-template-rows: repeat(4, 1fr);
-          background-image: url("../img/img-css/banner.png");
-          background-size: contain;
-          background-repeat: no-repeat;
-          text-align: center;
-          height: 250px;
-          width: auto; }
-          body .wrapper header .Imagen-de-Fondo .logo {
-            display: none; }
-          body .wrapper header .Imagen-de-Fondo .titulos {
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: repeat(2, 30px);
-            grid-template-areas: "titulo1" "titulo2"; }
-          body .wrapper header .Imagen-de-Fondo .title {
-            font-family: "Astania Script", sans-serif, black;
-            font-size: 30px;
-            font-weight: 100;
-            text-align: center;
-            background-color: transparent;
-            padding-top: 30px;
-            z-index: 2;
-            display: grid;
-            grid-area: "titulo1";
-            grid-column: 1/10;
-            grid-row: 1/4;
-            height: 0px;
-            width: auto; }
-          body .wrapper header .Imagen-de-Fondo .subtitle {
-            font-family: "Astania Script", sans-serif, black;
-            font-size: 20px;
-            font-weight: 100;
-            text-align: center;
-            background-color: transparent;
-            padding-top: 20px;
-            display: grid;
-            grid-area: "titulo2";
-            grid-column: 1/10;
-            grid-row: 2/4;
-            height: 0px;
-            width: auto; }
-        body .wrapper header .countainer-nav {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around; }
-          body .wrapper header .countainer-nav .barra-de-botones {
-            display: inline;
-            text-align: center;
-            list-style: none;
-            font-family: "Ramaraja", serif, black;
-            text-decoration: none;
-            font-size: 15px;
-            border-radius: 5px;
-            margin-top: 30px;
-            margin-right: 14px;
-            margin-left: 14px;
-            padding: 0; }
-          body .wrapper header .countainer-nav .li-nav {
-            display: inline;
-            opacity: 75%;
-            font-family: 'Ramaraja', serif;
-            color: black;
-            text-decoration: none;
-            margin-top: 30px;
-            margin-right: 15px;
-            margin-left: 15px;
-            padding-left: 65px;
-            padding-right: 65px;
-            border: white;
-            border-width: 5px;
-            opacity: 80%; }
-          body .wrapper header .countainer-nav a:link, body .wrapper header .countainer-nav a:visited, body .wrapper header .countainer-nav a:hover {
-            color: black;
-            text-decoration: none; }
-      body .wrapper main {
-        /*TEXTO*/ }
-        body .wrapper main .texto-main .primer-h2, body .wrapper main .texto-main .h2 {
-          font-family: "Astania Script", sans-serif, black;
-          font-size: 40px;
-          opacity: 80%;
-          text-align: center;
-          padding-top: 100px; }
-        body .wrapper main .texto-main .primer-h2, body .wrapper main .texto-main .h2 {
-          font-family: "Astania Script", sans-serif, black;
-          font-size: 20px;
-          opacity: 80%;
-          text-align: center;
-          padding-top: 100px;
-          width: auto; }
-        body .wrapper main .texto-main .h2 {
-          font-family: "Astania Script", sans-serif, black;
-          font-size: 20px;
-          opacity: 80%;
-          text-align: center;
-          padding-top: 50px;
-          padding-bottom: 0px;
-          width: auto; }
-        body .wrapper main .texto-main p {
-          padding-top: 10px;
-          padding-left: auto;
-          padding-right: auto;
-          padding-bottom: 10px;
-          margin: 10px;
-          font-family: "Ramaraja", serif, black;
-          font-size: 15px;
-          text-align: center;
-          width: auto; }
-        body .wrapper main .texto-main .ultimo-p {
-          padding: 10px;
-          padding-left: auto;
-          padding-right: auto;
-          padding-bottom: 100px;
-          margin: 10px;
-          font-family: "Ramaraja", serif, black;
-          font-size: 15px;
-          text-align: center;
-          width: auto; }
-    body .countainer-footer {
-      overflow: scroll;
-      transition: all .4s;
-      height: calc(100% -65px); }
-      body .countainer-footer .countainer-footer li:hover {
-        background: none; }
-      body .countainer-footer .countainer-footer li a {
-        color: #784A41; }
-      body .countainer-footer .countainer-footer li a:hover {
-        color: #cd8a7c86; }
-  /* FOTOS Y DIVISIONES-GALERIA */
-  .galeria {
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px; }
+  body main .texto-main .primer-h2 {
+    font-size: 70px;
+    padding-top: 100px;
+    padding-bottom: 30px; }
+  body main .texto-main .h2 {
+    font-size: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .parrafo {
+    padding-top: 10px;
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px; }
+  .ultimo-parrafo {
+    padding-top: 10px;
+    font-size: 18px; }
+  .main .primer-h2 {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .main .titulo-h3-nuestro-menu {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .main .titulo-h4 {
+    margin-top: 40px;
+    font-size: 20px; }
+  .primer-h2 {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .primer-h3-contactanos {
+    font-size: 30px; }
+  /*NUESTRO-MENU*/
+  .main-nuestro-menu .primer-h2 {
+    font-size: 70px; }
+  .main-nuestro-menu .titulo-h3-nuestro-menu {
+    font-size: 50px; }
+  .main-nuestro-menu .titulo-h4 {
+    font-size: 30px; }
+  /*SERVICIOS-ESPECIALES*/
+  .main-servicios-especiales .primer-h2 {
+    font-size: 70px; }
+  .main-servicios-especiales .titulo-h3-nuestro-menu {
+    font-size: 50px; }
+  .servicios-especiales {
+    width: 450px; }
+  /*GALERIA*/
+  .main-galeria .primer-h2 {
+    font-size: 70px; }
   .divisiones-galeria {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(10, 1fr); }
-  /* MAIN-CONTACTANOS */
-  .mapa {
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px; }
-  .titulos-en-main-mapa {
-    display: grid;
-    grid-column: 1/9;
-    grid-row: 1; }
-  .formulario {
+    grid-template-rows: repeat(9, auto); }
+  /*OPINIONES*/
+  .main-opiniones .primer-h2 {
+    font-size: 70px; }
+  .barra {
+    width: 200px; }
+  /*REGISTRATE*/
+  .main-registrate .primer-h2 {
+    font-size: 70px; }
+  .icon-user {
+    width: 120px; }
+  /*CONTACTANOS*/
+  .main-contactanos .primer-h2 {
+    font-size: 60px; }
+  .main-contactanos .div-contactanos .primer-h3-contactanos {
+    font-size: 30px; }
+  .formulario .formulario-de-contacto .primer-h3-contactanos {
+    font-size: 30px; }
+  .ubicacion {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr; }
-  .formulario-de-contacto {
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 1; }
-  /* TITULOS-SERVICIOS ESPECIALES */
-  .servicios-especiales {
-    width: 800px;
-    display: block;
+    grid-template-rows: 1fr;
+    width: 400px;
     margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 70px; }
-  .titulo-h3-servicios-especiales,
-  .primer-h3-contactanos,
-  .titulo-h3-nuestro-menu {
-    font-family: "Astania Script", sans-serif, black;
+    margin-right: auto; } }
+
+@media screen and (max-width: 575px) {
+  body main .texto-main .primer-h2 {
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px; }
+  body main .texto-main .h2 {
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .parrafo {
+    padding-top: 10px;
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 14px; }
+  .ultimo-parrafo {
+    padding-top: 10px;
+    font-size: 14px; }
+  .main .primer-h2 {
     font-size: 30px;
-    opacity: 80%;
-    text-align: center;
-    text-decoration: underline black;
     padding-top: 50px;
-    padding-bottom: 0px; }
-  /* FUENTES Y DIVISIONES-NUESTRO MENU */
-  .titulo-h4 {
-    font-family: "Astania Script", sans-serif, black;
+    padding-bottom: 30px; }
+  .main .titulo-h3-nuestro-menu {
     font-size: 20px;
-    opacity: 80%;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 0px; }
-  .espaciados {
-    width: 50%;
-    background-color: black;
-    border: 0;
-    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .main .titulo-h4 {
+    margin-top: 30px;
+    font-size: 15px; }
+  .primer-h2 {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+  .primer-h3-contactanos {
+    font-size: 20px; }
+  /*NUESTRO-MENU*/
+  .main-nuestro-menu {
+    margin-left: 5px;
+    margin-right: 5px; }
+  .main-nuestro-menu .primer-h2 {
+    font-size: 50px; }
+  .main-nuestro-menu .titulo-h3-nuestro-menu {
+    font-size: 35px; }
+  .main-nuestro-menu .titulo-h4 {
+    font-size: 20px; }
+  /*SERVICIOS-ESPECIALES*/
+  .main-servicios-especiales {
+    margin-left: 5px;
+    margin-right: 5px; }
+  .main-servicios-especiales .primer-h2 {
+    font-size: 50px; }
+  .main-servicios-especiales .titulo-h3-nuestro-menu {
+    font-size: 30px; }
+  .servicios-especiales {
+    width: 200px; }
+  /*GALERIA*/
+  .main-galeria .primer-h2 {
+    font-size: 50px; }
+  .divisiones-galeria {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(18, auto); }
+  /*OPINIONES*/
+  .main-opiniones .primer-h2 {
+    font-size: 50px; }
+  .barra {
+    width: 200px;
     margin-left: auto;
     margin-right: auto; }
-  .divisiones {
-    width: 80%;
-    background-color: black;
-    border: 0;
-    height: 3px;
+  /*REGISTRATE*/
+  .main-registrate .primer-h2 {
+    font-size: 50px; }
+  .icon-user {
+    width: 75px; }
+  /*CONTACTANOS*/
+  .main-contactanos .primer-h2 {
+    font-size: 50px; }
+  .main-contactanos .div-contactanos .primer-h3-contactanos {
+    font-size: 30px; }
+  .formulario .formulario-de-contacto .primer-h3-contactanos {
+    font-size: 30px; }
+  .mapa {
+    width: 200px; }
+  .ubicacion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    width: 200px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto; } }
